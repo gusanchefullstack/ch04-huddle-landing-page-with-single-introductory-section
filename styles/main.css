@@ -1,0 +1,77 @@
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: var(--Violet);
+    background-image: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 2rem;
+}
+
+.huddle-logo img {
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.main-image img{
+    width: 100%;
+    
+}
+
+
+.heading-title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 4rem;
+}
+
+.heading-description {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: gainsboro;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.register-button {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0.6rem 2rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+.register-button p {
+    color: var(--Violet);
+    font-size: 1rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
