@@ -21,6 +21,7 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: 2rem 2rem;
 }
 
@@ -34,7 +35,6 @@ body {
     width: 100%;
     
 }
-
 
 .heading-title {
     text-align: center;
@@ -74,9 +74,9 @@ body {
 .social-icons {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     justify-content: center;
-    margin-top: 3rem;
+    margin: 3rem auto;
+    
 }
 
 .icon-facebook,
@@ -92,6 +92,97 @@ body {
     padding: 0.8rem;
     margin: 0.5rem;
     font-size: 0.7rem;
+}
+
+@media screen and (min-width:48rem){
+
+    body {
+        background-image: url(../images/bg-desktop.svg);
+    }
+
+    .container {
+        display: block;
+        margin: 1rem 4rem;
+    }
+
+    .huddle-logo img {
+        width: 15rem;
+        
+    }
+
+    main {
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+
+    .main-image {
+        flex-basis: 51%;
+    }
+
+    .main-image img{
+        width: 100%;   
+    }
+
+    .huddle-text {
+        display: block;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        flex-basis: 42%;
+        margin-left: 3rem;
+    }
+
+    .heading-title {
+        text-align: left;
+        font-size: 2rem;
+        width: 70%;
+    }
+
+    .heading-description {
+        text-align: left;
+        font-size: 1rem;
+        margin: 1.5rem 0;
+        width: 85%;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 2rem;
+        margin-right: 9rem;
+
+    }
+    
+    .register-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        padding: 0.9rem 0.2rem;
+        box-shadow:  3px 6px 9px #343436;
+        margin: 0;
+    }
+
+    .register-button p {
+        font-size: 0.9rem;
+        
+    }
+
+    .icon-facebook,
+    .icon-twitter,
+    .icon-instagram {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        border: solid 0.05rem white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.8rem;
+        margin: 0.5rem;
+        font-size: 1.2rem;
+    }
+    
 }
 
 .attribution a:nth-child(1) {
