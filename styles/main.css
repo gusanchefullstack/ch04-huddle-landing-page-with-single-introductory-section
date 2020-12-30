@@ -70,6 +70,15 @@ body {
     font-size: 0.8rem;
     
 }
+.register-button:hover  {
+    background-color: var(--Soft-Magenta);
+    cursor: pointer;
+    
+}
+
+.register-button:hover p {
+    color: white;
+}
 
 .social-icons {
     display: flex;
@@ -92,6 +101,14 @@ body {
     padding: 0.8rem;
     margin: 0.5rem;
     font-size: 0.7rem;
+}
+
+.icon-facebook:hover,
+.icon-twitter:hover,
+.icon-instagram:hover {
+    border: solid 0.05rem var(--Soft-Magenta);
+    color: var(--Soft-Magenta);
+    cursor: pointer;
 }
 
 @media screen and (min-width:48rem){
